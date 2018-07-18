@@ -42,6 +42,7 @@
     [_pageViewController setViewControllers:@[[self readViewWithChapter:_model.record.chapter page:_model.record.page]] direction:UIPageViewControllerNavigationDirectionForward animated:YES completion:nil];
     _chapter = _model.record.chapter;
     _page = _model.record.page;
+
     [self.view addGestureRecognizer:({
         UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(showToolMenu)];
         tap.delegate = self;
@@ -311,41 +312,70 @@
     }
 }
 #pragma mark -PageViewController DataSource
-- (nullable UIViewController *)pageViewController:(UIPageViewController *)pageViewController viewControllerBeforeViewController:(UIViewController *)viewController
-{
-
-    _pageChange = _page;
-    _chapterChange = _chapter;
-
-    if (_chapterChange==0 &&_pageChange == 0) {
+- (nullable UIViewController *)pageViewController:(UIPageViewController *)pageViewController viewControllerBeforeViewController:(UIViewController *)viewController{
+    
+    if(_page == 0 && _chapter == 0){
+        //现在是第一页
         return nil;
     }
-    if (_pageChange==0) {
-        _chapterChange--;
+    
+    if(_page == 0){
+        //是第一页，但是不是第一章
+        _chapterChange = _chapter - 1;
         _pageChange = _model.chapters[_chapterChange].pageCount-1;
+    }else{
+        //不是第一章也不是第一页
+        _chapterChange = _chapter;
+        _pageChange = _page - 1;
     }
-    else{
-        _pageChange--;
-    }
+    
+//    _pageChange = _page;
+//    _chapterChange = _chapter;
+//
+//    if (_chapterChange==0 &&_pageChange == 0) {
+//        return nil;
+//    }    if (_pageChange==0) {
+//        _chapterChange--;
+//        _pageChange = _model.chapters[_chapterChange].pageCount-1;
+//    }
+//    else{
+//        _pageChange--;
+//    }
     
     return [self readViewWithChapter:_chapterChange page:_pageChange];
     
 }
-- (nullable UIViewController *)pageViewController:(UIPageViewController *)pageViewController viewControllerAfterViewController:(UIViewController *)viewController
-{
+- (nullable UIViewController *)pageViewController:(UIPageViewController *)pageViewController viewControllerAfterViewController:(UIViewController *)viewController{
 
-    _pageChange = _page;
-    _chapterChange = _chapter;
-    if (_pageChange == _model.chapters.lastObject.pageCount-1 && _chapterChange == _model.chapters.count-1) {
+    if (_page == _model.chapters.lastObject.pageCount-1 && _chapter == _model.chapters.count-1) {
+        //最后一章最后一页
         return nil;
     }
-    if (_pageChange == _model.chapters[_chapterChange].pageCount-1) {
-        _chapterChange++;
+    
+    if (_page == _model.chapters[_chapter].pageCount-1) {
+        //最后一页不是最后一章
+        _chapterChange = _chapter + 1;
         _pageChange = 0;
+    }else{
+        //不是最后一页也不是最后一章
+        _chapterChange = _chapter;
+        _pageChange = _page + 1;
     }
-    else{
-        _pageChange++;
-    }
+    
+//    _pageChange = _page;
+//    _chapterChange = _chapter;
+//    if (_pageChange == _model.chapters.lastObject.pageCount-1 && _chapterChange == _model.chapters.count-1) {
+//        return nil;
+//    }
+//
+//    if (_pageChange == _model.chapters[_chapterChange].pageCount-1) {
+//        _chapterChange++;
+//        _pageChange = 0;
+//    }
+//    else{
+//        _pageChange++;
+//    }
+    
     return [self readViewWithChapter:_chapterChange page:_pageChange];
 }
 #pragma mark -PageViewController Delegate
