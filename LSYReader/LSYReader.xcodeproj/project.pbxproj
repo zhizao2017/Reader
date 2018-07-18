@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A271BAC20FF11A30030C0F1 /* 76311429541823.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4A271BAB20FF11A30030C0F1 /* 76311429541823.txt */; };
 		871E61041D1252B20047AAFE /* CXMLDocument_CreationExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 871E60E71D1252B20047AAFE /* CXMLDocument_CreationExtensions.m */; };
 		871E61051D1252B20047AAFE /* CXMLNode_CreationExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 871E60E91D1252B20047AAFE /* CXMLNode_CreationExtensions.m */; };
 		871E61061D1252B20047AAFE /* CXHTMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 871E60EB1D1252B20047AAFE /* CXHTMLDocument.m */; };
@@ -27,7 +28,6 @@
 		871E61CC1D1282B80047AAFE /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 871E61C41D1282B80047AAFE /* unzip.c */; };
 		871E61CD1D1282B80047AAFE /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 871E61C61D1282B80047AAFE /* zip.c */; };
 		871E61CE1D1282B80047AAFE /* ZipArchive.mm in Sources */ = {isa = PBXBuildFile; fileRef = 871E61C91D1282B80047AAFE /* ZipArchive.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		871E61D01D128E900047AAFE /* 细说明朝.epub in Resources */ = {isa = PBXBuildFile; fileRef = 871E61CF1D1285EC0047AAFE /* 细说明朝.epub */; };
 		871E61D31D12A6040047AAFE /* NSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = 871E61D21D12A6040047AAFE /* NSString+HTML.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		871E61D61D12A66A0047AAFE /* GTMNSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = 871E61D51D12A66A0047AAFE /* GTMNSString+HTML.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		8726DA4B1D07FF830072323A /* bt_tjcp_no@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8726DA4A1D07FF830072323A /* bt_tjcp_no@2x.png */; };
@@ -42,7 +42,6 @@
 		87D8BD3E1D0013ED0087D8DA /* LSYMarkVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 87D8BD3D1D0013ED0087D8DA /* LSYMarkVC.m */; };
 		87D8BD411D002C4E0087D8DA /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 87D8BD401D002C4E0087D8DA /* UIImage+ImageEffects.m */; };
 		AB905C751D0D1BC400F3B2C9 /* LSYMagnifierView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB905C741D0D1BC400F3B2C9 /* LSYMagnifierView.m */; };
-		AB93D89C1DDCA44F0071DFBE /* 每天懂一点好玩心理学.epub in Resources */ = {isa = PBXBuildFile; fileRef = AB93D89B1DDCA43A0071DFBE /* 每天懂一点好玩心理学.epub */; };
 		AB9A96BC1CFC2EE80066030C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9A96BB1CFC2EE80066030C /* main.m */; };
 		AB9A96BF1CFC2EE80066030C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9A96BE1CFC2EE80066030C /* AppDelegate.m */; };
 		AB9A96C21CFC2EE80066030C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9A96C11CFC2EE80066030C /* ViewController.m */; };
@@ -59,7 +58,6 @@
 		AB9A96F11CFD27ED0066030C /* LSYNoteModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9A96F01CFD27ED0066030C /* LSYNoteModel.m */; };
 		AB9A96F41CFD27FC0066030C /* LSYChapterModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9A96F31CFD27FC0066030C /* LSYChapterModel.m */; };
 		AB9A96F71CFD2EC70066030C /* LSYRecordModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9A96F61CFD2EC70066030C /* LSYRecordModel.m */; };
-		ABE8ABD31CFE930F00693078 /* mdjyml.txt in Resources */ = {isa = PBXBuildFile; fileRef = ABE8ABD21CFE930F00693078 /* mdjyml.txt */; };
 		ABE8ABD71CFEBB2400693078 /* LSYMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE8ABD61CFEBB2400693078 /* LSYMenuView.m */; };
 		ABE8ABDA1CFEBB7600693078 /* LSYTopMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE8ABD91CFEBB7600693078 /* LSYTopMenuView.m */; };
 		ABE8ABDD1CFEBB8300693078 /* LSYBottomMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE8ABDC1CFEBB8300693078 /* LSYBottomMenuView.m */; };
@@ -70,6 +68,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4A271BAB20FF11A30030C0F1 /* 76311429541823.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 76311429541823.txt; sourceTree = "<group>"; };
 		871E60E61D1252B20047AAFE /* CXMLDocument_CreationExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLDocument_CreationExtensions.h; sourceTree = "<group>"; };
 		871E60E71D1252B20047AAFE /* CXMLDocument_CreationExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLDocument_CreationExtensions.m; sourceTree = "<group>"; };
 		871E60E81D1252B20047AAFE /* CXMLNode_CreationExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLNode_CreationExtensions.h; sourceTree = "<group>"; };
@@ -111,7 +110,6 @@
 		871E61C71D1282B80047AAFE /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
 		871E61C81D1282B80047AAFE /* ZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZipArchive.h; sourceTree = "<group>"; };
 		871E61C91D1282B80047AAFE /* ZipArchive.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ZipArchive.mm; sourceTree = "<group>"; };
-		871E61CF1D1285EC0047AAFE /* 细说明朝.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "细说明朝.epub"; sourceTree = "<group>"; };
 		871E61D11D12A6040047AAFE /* NSString+HTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HTML.h"; sourceTree = "<group>"; };
 		871E61D21D12A6040047AAFE /* NSString+HTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HTML.m"; sourceTree = "<group>"; };
 		871E61D41D12A66A0047AAFE /* GTMNSString+HTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GTMNSString+HTML.h"; sourceTree = "<group>"; };
@@ -137,7 +135,6 @@
 		87D8BD401D002C4E0087D8DA /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
 		AB905C731D0D1BC400F3B2C9 /* LSYMagnifierView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSYMagnifierView.h; sourceTree = "<group>"; };
 		AB905C741D0D1BC400F3B2C9 /* LSYMagnifierView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSYMagnifierView.m; sourceTree = "<group>"; };
-		AB93D89B1DDCA43A0071DFBE /* 每天懂一点好玩心理学.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "每天懂一点好玩心理学.epub"; sourceTree = "<group>"; };
 		AB9A96B71CFC2EE70066030C /* LSYReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LSYReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB9A96BB1CFC2EE80066030C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AB9A96BD1CFC2EE80066030C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -169,7 +166,6 @@
 		AB9A96F31CFD27FC0066030C /* LSYChapterModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSYChapterModel.m; sourceTree = "<group>"; };
 		AB9A96F51CFD2EC70066030C /* LSYRecordModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSYRecordModel.h; sourceTree = "<group>"; };
 		AB9A96F61CFD2EC70066030C /* LSYRecordModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSYRecordModel.m; sourceTree = "<group>"; };
-		ABE8ABD21CFE930F00693078 /* mdjyml.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = mdjyml.txt; path = ../../mdjyml.txt; sourceTree = "<group>"; };
 		ABE8ABD51CFEBB2400693078 /* LSYMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSYMenuView.h; sourceTree = "<group>"; };
 		ABE8ABD61CFEBB2400693078 /* LSYMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSYMenuView.m; sourceTree = "<group>"; };
 		ABE8ABD81CFEBB7600693078 /* LSYTopMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSYTopMenuView.h; sourceTree = "<group>"; };
@@ -423,9 +419,7 @@
 		ABE8ABDE1CFED82600693078 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				871E61CF1D1285EC0047AAFE /* 细说明朝.epub */,
-				AB93D89B1DDCA43A0071DFBE /* 每天懂一点好玩心理学.epub */,
-				ABE8ABD21CFE930F00693078 /* mdjyml.txt */,
+				4A271BAB20FF11A30030C0F1 /* 76311429541823.txt */,
 				8726DA501D08021E0072323A /* sale_discount_yellow.png */,
 				8726DA4E1D0800A10072323A /* ic_add.png */,
 				ABE8ABE31CFED8CE00693078 /* reader_more@2x.png */,
@@ -469,7 +463,8 @@
 				TargetAttributes = {
 					AB9A96B61CFC2EE70066030C = {
 						CreatedOnToolsVersion = 7.3;
-						DevelopmentTeam = P348GLNLW8;
+						DevelopmentTeam = JX2XZ4UX75;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -496,14 +491,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB93D89C1DDCA44F0071DFBE /* 每天懂一点好玩心理学.epub in Resources */,
-				871E61D01D128E900047AAFE /* 细说明朝.epub in Resources */,
+				4A271BAC20FF11A30030C0F1 /* 76311429541823.txt in Resources */,
 				AB9A96CA1CFC2EE80066030C /* LaunchScreen.storyboard in Resources */,
 				8726DA4F1D0800A10072323A /* ic_add.png in Resources */,
 				8726DA4B1D07FF830072323A /* bt_tjcp_no@2x.png in Resources */,
 				8726DA511D08021E0072323A /* sale_discount_yellow.png in Resources */,
 				ABE8ABE21CFED88300693078 /* bg_back_white@2x.png in Resources */,
-				ABE8ABD31CFE930F00693078 /* mdjyml.txt in Resources */,
 				ABE8ABE71D02A99300693078 /* r_drag-dot@2x.png in Resources */,
 				AB9A96C71CFC2EE80066030C /* Assets.xcassets in Resources */,
 				ABE8ABE41CFED8CE00693078 /* reader_more@2x.png in Resources */,
@@ -679,15 +672,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = P348GLNLW8;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = JX2XZ4UX75;
 				GCC_PREFIX_HEADER = "LSYReader/LSYReader-Prefix.pch";
 				HEADER_SEARCH_PATHS = " /usr/include/libxml2";
 				INFOPLIST_FILE = LSYReader/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-lxml2";
-				PRODUCT_BUNDLE_IDENTIFIER = com.renrui.LSYReader;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lanyue.gonewithwind;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "31fde793-fb0b-44af-96a4-24ebfd226182";
+				PROVISIONING_PROFILE_SPECIFIER = gonewithwinddev;
 			};
 			name = Debug;
 		};
@@ -696,15 +692,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = P348GLNLW8;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				GCC_PREFIX_HEADER = "LSYReader/LSYReader-Prefix.pch";
 				HEADER_SEARCH_PATHS = " /usr/include/libxml2";
 				INFOPLIST_FILE = LSYReader/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-lxml2";
-				PRODUCT_BUNDLE_IDENTIFIER = com.renrui.LSYReader;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lanyue.gonewithwind;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};

@@ -275,7 +275,10 @@
         _readView.content = [_model.chapters[chapter] stringOfPage:page];
     }
     _readView.delegate = self;
+    
+#ifdef DEBUG
     NSLog(@"_readGreate");
+#endif
     
     return _readView;
 }

@@ -32,7 +32,7 @@
    [_begin setTitle:@"" forState:UIControlStateNormal];
     [_beginEpub setEnabled:NO];
     LSYReadPageViewController *pageView = [[LSYReadPageViewController alloc] init];
-    NSURL *fileURL = [[NSBundle mainBundle] URLForResource:@"mdjyml"withExtension:@"txt"];
+    NSURL *fileURL = [[NSBundle mainBundle] URLForResource:@"76311429541823"withExtension:@"txt"];
     pageView.resourceURL = fileURL;    //文件位置
     
     dispatch_async(dispatch_get_global_queue(0, 0), ^{
